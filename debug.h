@@ -124,6 +124,7 @@ int printf(const char *restrict format, ...);
                long double: "%Lg", \
            _Complex double: "%g + %gi", \
                     char *: "%s", \
+              const char *: "%s", \
                     void *: "%p", \
          char[sizeof(arg)]: "%s", \
                    default: "<unknown>" \
